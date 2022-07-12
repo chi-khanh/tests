@@ -1,0 +1,116 @@
+p {
+    margin: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(114, 169, 214);
+    font-family: sans-serif;
+    margin: 0
+}
+
+.align-right {
+    text-align: right;
+    margin-top: 5px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.login {
+    width: 350px;
+    /* height: 450px; */
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: left;
+    margin: auto;
+    color: rgb(59, 57, 57);
+    padding: 50px;
+    font-weight: bold;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.login h2 {
+    margin: 0;
+}
+
+.login input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+}
+
+.login .check input {
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+}
+
+.login button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(236, 90, 180);
+    color: white;
+}
+
+.login p {
+    display: inline-block;
+}
+
+.line {
+    position: relative;
+    height: 20px;
+}
+
+.box {
+    border: 1px solid grey;
+    width: 20px;
+    height: 20px;
+    margin-left: 110px;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    bottom: 50%;
+}
+
+.border {
+    border-top: 1px solid gray;
+    width: 100%;
+}
+
+.icon {
+    padding-left: 45px;
+}
+
+.login .icon img {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.icon {
+    padding-left: 45px;
+}

@@ -1,0 +1,42 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px
+}
+
+.container {
+    width: 1024px;
+    height: 800px;
+    background-color: rgb(255, 208, 196);
+    margin: 0 auto;
+}
+
+.header {
+    width: calc(100% - 100px);
+    height: 50px;
+    background-color: black;
+    margin: 0px auto;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.left {
+    width: calc(60% - 4px);
+    display: inline-block;
+}
+
+.right {
+    width: 40%;
+    display: inline-block;
+    text-align: right;
+}

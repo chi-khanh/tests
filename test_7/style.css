@@ -1,0 +1,142 @@
+body {
+    background-color: #F1F1F1;
+    margin: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: calc(100% - 15px);
+    background-color: #F1F1F1;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    color: #9F9EA0;
+}
+
+.footer p {
+    color: white;
+}
+
+.line {
+    border-top: 2px solid #E7E7E7;
+    margin-top: 10px;
+
+}
+
+.wrapper {
+    width: calc(25% - 3px);
+    padding-left: 8px;
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.box {
+    border: 1px solid black;
+
+    background-color: white;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 2px 0 0 #E7E7E7;
+}
+
+.image {
+    display: inline-block;
+    width: 25%;
+}
+
+.text {
+    display: inline-block;
+    text-align: right;
+    width: calc(75% - 4px);
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.parent {
+    width: 100%;
+    position: relative;
+}
+
+.border-top {
+    border: 5px solid #F1F1F1;
+    margin: 0;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.border-bot {
+    border: 5px solid;
+    margin: 0;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    border-radius: 3px;
+}
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.text-orange {
+    color: orange;
+}
+
+.text-green {
+    color: green;
+}
+
+.text-pink {
+    color: pink;
+}
+
+.content {
+    width: 100%;
+}
