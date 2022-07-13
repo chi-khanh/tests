@@ -1,0 +1,47 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(./Poppins/Poppins-Light.ttf);
+}
+
+body {
+  font-family: Poppins;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+/* common class */
+.mt-35 {
+  margin-top: 35px;
+}
+/* container */
+.container {
+  margin: 0 auto;
+  width: 1024px;
+}
+/* header */
+.header {
+  background-color: brown;
+}
+/* banner */
+.banner {
+  background-color: blue;
+}
