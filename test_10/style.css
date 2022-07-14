@@ -28,20 +28,95 @@ img {
   display: block;
   width: 100%;
 }
+
 /* common class */
 .mt-35 {
   margin-top: 35px;
 }
+
 /* container */
 .container {
   margin: 0 auto;
   width: 1024px;
 }
-/* header */
-.header {
-  background-color: brown;
+
+@media screen and (min-width: 2280px) {
+  .container {
+    margin: 0 auto;
+    width: 2100px;
+  }
 }
+
+/* header */
+.header {}
+
+/* header-left */
+.header-left {
+  display: inline-block;
+  width: 70%;
+}
+
+/* header logo */
+.header-logo {
+  display: inline-block;
+}
+
+/* header list */
+.header-list {
+  display: inline-block;
+}
+
+.header-list ol {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding-left: 30px;
+}
+
+.header-list li {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 25px;
+ 
+
+}
+
+/* header-right */
+.header-right {
+  display: inline-block;
+  width: calc(30% - 5px);
+  text-align: right;
+}
+
+.header-price {
+  display: inline-block;
+}
+
+.header-buttom {
+  display: inline-block;
+}
+
 /* banner */
 .banner {
-  background-color: blue;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.094) 100%), #050505;
+  color: white;
+  border-radius: 36px;
+  position: relative;
 }
+
+/* banner content */
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+/* banner buttom */
+.banner-buttom {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+}
+
+/* banner image */
+.banner-image {}
