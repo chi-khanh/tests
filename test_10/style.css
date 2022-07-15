@@ -34,6 +34,10 @@ img {
   margin-top: 35px;
 }
 
+.vertical-align-middle {
+  vertical-align: middle;
+}
+
 /* container */
 .container {
   margin: 0 auto;
@@ -46,9 +50,6 @@ img {
     width: 2100px;
   }
 }
-
-/* header */
-.header {}
 
 /* header-left */
 .header-left {
@@ -77,8 +78,12 @@ img {
   display: inline-block;
   font-size: 20px;
   line-height: 25px;
- 
+  padding-left: 30px;
+  font-weight: 500px;
+}
 
+.header-list ol li:hover {
+  text-decoration: underline;
 }
 
 /* header-right */
@@ -90,10 +95,44 @@ img {
 
 .header-price {
   display: inline-block;
+  text-align: right;
+  padding-right: 60px;
 }
 
-.header-buttom {
+.header-price h5 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400px;
+}
+
+.header-price p {
+  font-weight: 400px;
+  color: #B7B7B7;
+}
+
+.header-button {
   display: inline-block;
+
+}
+
+.header-button button {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500px;
+  padding: 15px 55px;
+  border-radius: 77px;
+  background: #050505;
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid #050505;
+  transition: background 0.3s;
+}
+
+.header-button button:hover {
+  background: transparent;
+  color: #050505;
+  transition: background 0.3s;
+
 }
 
 /* banner */
@@ -102,21 +141,59 @@ img {
   color: white;
   border-radius: 36px;
   position: relative;
+  overflow: hidden;
 }
 
 /* banner content */
 .banner-content {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 20%;
+  left: 40%;
+  text-align: center;
+}
+
+.banner-content h3 {
+  font-size: 144px;
+  line-height: 140px;
+  margin-top: 75px;
+}
+
+.banner-content p {
+  font-size: 36px;
+  line-height: 45px;
+  font-weight: 500px;
 }
 
 /* banner buttom */
-.banner-buttom {
+.banner-button {
   position: absolute;
-  bottom: 30%;
-  left: 50%;
+  bottom: 32%;
+  left: 46%;
+  background-color: rgb(67 65 65 / 8%);
+  border-radius: 55px;
+  padding: 40px;
+  backdrop-filter: blur(16px);
+  cursor: pointer;
+
+}
+
+.banner-button i {
+  font-size: 50px;
+  vertical-align: middle;
+  margin: 10px;
+}
+
+.banner-button button {
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: 300px;
+  text-align: center;
+  background-color: rgba(37, 37, 37, 0.08);
+  border: none;
+  color: #fff;
 }
 
 /* banner image */
-.banner-image {}
+.banner-image {
+  margin-top: 30%;
+}
