@@ -1,0 +1,36 @@
+/* layout-1 */
+.form-contained {
+}
+
+.form-contained .form-label {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.form-contained .form-input {
+  border: 1px solid #e8e8e8;
+  background-color: #fafdff;
+  border-radius: 10px;
+  padding: 15px 16px;
+  width: 100%;
+}
+
+/* layout-3 */
+.form-outlined {
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  background-color: #fafdff;
+  padding: 15px 16px;
+  width: 100%;
+}
+
+.form-outlined .form-label {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.form-outlined .form-input {
+  background-color: transparent;
+  border-bottom: 1px solid #000;
+  border-width: 0 0 1px 0;
+}

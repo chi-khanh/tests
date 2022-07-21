@@ -1,0 +1,88 @@
+.signup_wrapper {
+  position: relative;
+  min-height: 100vh;
+  padding-top: 90px;
+}
+.wrapper {
+  width: 40%;
+}
+/* header sign up */
+
+.header-label {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+.header-label-line {
+  border-top: 3px solid #000;
+  width: 80px;
+}
+
+.header-label p {
+  margin-left: 35px;
+  color: #ffb7d5;
+}
+/* sign up botton list */
+.sign-up-button-list {
+  margin-top: 65px;
+  display: flex;
+}
+
+.sign-up-button-list p {
+  padding-left: 15px;
+}
+
+.sign-up-button-list button {
+  border-radius: 6px;
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
+}
+
+.sign-up-button-item {
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+  flex: 1;
+  justify-content: center;
+  line-height: 36px;
+}
+
+.button-sign-up-facebook {
+  margin-left: 15px;
+}
+/* information input */
+.information-input {
+  margin-top: 50px;
+  display: flex;
+}
+
+/* sign up arrow */
+.sign-up-arrow {
+  width: 80px;
+  height: 80px;
+  background-color: #ffb7d5;
+  border-radius: 35px;
+  text-align: center;
+  line-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 10px 30px #ffb7d5;
+  cursor: pointer;
+}
+/* sign in */
+.sign-in {
+  padding-bottom: 90px;
+}
+
+.sign-in a {
+  color: #ffb7d5;
+  text-decoration: none;
+}
+/* sign in background image */
+.signup-background-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 60%;
+}
