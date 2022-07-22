@@ -1,33 +1,49 @@
+/* font-size */
 .fs-12 {
   font-size: 12px;
   line-height: 18px;
 }
-
 .fs-14 {
   font-size: 14px;
   line-height: 21px;
 }
-
 .fs-16 {
   font-size: 16px;
   line-height: 24px;
 }
-
 .fs-20 {
   font-size: 20px;
   line-height: 30px;
 }
-
+.fs-24 {
+  font-size: 24px;
+  line-height: 36px;
+}
+.fs-40 {
+  font-size: 40px;
+  line-height: 60px;
+}
 .fs-48 {
   font-size: 48px;
   line-height: 72px;
 }
+/* font-weight */
+.fw-400 {
+  font-weight: 400;
+}
+.fw-700 {
+  font-weight: 700;
+}
+
+/* margin-left */
 .ml-15 {
   margin-left: 15px;
 }
 .ml-20 {
   margin-left: 20px;
 }
+
+/* margin-bottom */
 .mb-15 {
   margin-bottom: 15px;
 }
@@ -37,11 +53,16 @@
 .mb-30 {
   margin-bottom: 30px;
 }
+
+/* margin-top */
 .mt-15 {
   margin-top: 15px;
 }
 .mt-20 {
   margin-top: 20px;
+}
+.mt-28 {
+  margin-top: 28px;
 }
 .mt-35 {
   margin-top: 35px;
@@ -49,40 +70,44 @@
 .mt-40 {
   margin-top: 40px;
 }
+.mt-50 {
+  margin-top: 50px;
+}
+.mt-170 {
+  margin-top: 170px;
+}
+
+/* text-align */
 .text-center {
   text-align: center;
 }
-.fw-700 {
-  font-weight: 700;
-}
-.flex_1 {
+
+/* flex */
+.flex-1 {
   flex: 1;
 }
 
+/* container */
 .container {
   margin: 0 auto;
   width: calc(100% - 50px);
 }
-
 /* Nếu width của màn hình từ 576px trở lên thì thêm đoạn code bên dưới, ngược lại, xoá nó đi */
 @media screen and (min-width: 576px) {
   .container {
     width: 540px;
   }
 }
-
 @media screen and (min-width: 768px) {
   .container {
     width: 720px;
   }
 }
-
 @media screen and (min-width: 992px) {
   .container {
     width: 960px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .container {
     width: 1140px;
