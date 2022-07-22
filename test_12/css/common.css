@@ -19,6 +19,10 @@
   font-size: 24px;
   line-height: 36px;
 }
+.fs-32 {
+  font-size: 32px;
+  line-height: 48px;
+}
 .fs-40 {
   font-size: 40px;
   line-height: 60px;
@@ -53,7 +57,9 @@
 .mb-30 {
   margin-bottom: 30px;
 }
-
+.mb-40 {
+  margin-bottom: 40px;
+}
 /* margin-top */
 .mt-15 {
   margin-top: 15px;
@@ -64,6 +70,9 @@
 .mt-28 {
   margin-top: 28px;
 }
+.mt-30 {
+  margin-top: 30px;
+}
 .mt-35 {
   margin-top: 35px;
 }
@@ -73,8 +82,17 @@
 .mt-50 {
   margin-top: 50px;
 }
+.mt-68 {
+  margin-top: 68px;
+}
+.mt-155 {
+  margin-top: 155px;
+}
 .mt-170 {
   margin-top: 170px;
+}
+.mt-200 {
+  margin-top: 200px;
 }
 
 /* text-align */
