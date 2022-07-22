@@ -1,13 +1,13 @@
 @font-face {
   font-family: Poppins;
   font-weight: 400;
-  src: url(../Poppins/Poppins-Light.ttf);
+  src: url(../fonts/Poppins/Poppins-Light.ttf);
 }
 
 @font-face {
   font-family: Poppins;
   font-weight: 700;
-  src: url(../Poppins/Poppins-Bold.ttf);
+  src: url(../fonts/Poppins/Poppins-Bold.ttf);
 }
 * {
   -webkit-box-sizing: border-box;

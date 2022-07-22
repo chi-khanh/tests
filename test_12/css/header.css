@@ -8,11 +8,11 @@
   background: #fff;
 }
 
-.navigations {
+.header .navigations {
   display: flex;
 }
 
-.navigations .nav {
+.header .navigations .nav {
   display: block;
   padding: 15px 12px;
   text-decoration: none;
@@ -21,12 +21,8 @@
   transition: background 0.3s;
 }
 
-.navigations .nav:hover {
+.header .navigations .nav:hover {
   background: rgb(238 223 223);
   color: rgba(0, 0, 0, 0.7);
   transition: background 0.3s;
-}
-
-.home-page {
-  margin-top: 90px;
 }
