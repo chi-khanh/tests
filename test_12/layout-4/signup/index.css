@@ -1,0 +1,41 @@
+.signup-wrapper {
+  background: linear-gradient(296.75deg, #ffffff 0.6%, #fad4e4 99.59%);
+  display: flex;
+  min-height: 100vh;
+}
+/* .signup-content */
+.signup-content {
+  padding-top: 200px;
+}
+.signup-header p {
+  color: #8d8d8d;
+}
+/* signup-button */
+.signup-button {
+  display: flex;
+}
+.form-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  background: transparent;
+  border: 1px solid #aabbcc;
+  border-radius: 10px;
+}
+.form-button-facebook {
+  border: 2px solid #fa5d9e;
+}
+/* signup-footer */
+.signup-footer a {
+  text-decoration: none;
+  color: #fa5d9e;
+}
+.signup-footer h5 {
+  color: #8d8d8d;
+}
+.signup-footer span {
+  color: #fa5d9e;
+}
